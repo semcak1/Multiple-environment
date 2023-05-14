@@ -1,0 +1,13 @@
+current directory: /Users/semih.cakmak/Desktop/MultipleEnvironment/vendor/bundle/ruby/2.7.0/gems/json-2.6.2/ext/json
+/Users/semih.cakmak/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/semih.cakmak/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20230315-18575-389gg7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/semih.cakmak/Desktop/MultipleEnvironment/vendor/bundle/ruby/2.7.0/gems/json-2.6.2/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/semih.cakmak/Desktop/MultipleEnvironment/vendor/bundle/ruby/2.7.0/gems/json-2.6.2/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/semih.cakmak/Desktop/MultipleEnvironment/vendor/bundle/ruby/2.7.0/gems/json-2.6.2/ext/json
+make "DESTDIR=" install

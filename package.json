@@ -1,0 +1,36 @@
+{
+  "name": "multipleenvironment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "android:dev": "npx react-native run-android --variant=devDebug --appIdSuffix=dev",
+    "android:prod": "npx react-native run-android --variant=prodDebug",
+    "release:dev": "cd android && ./gradlew assembleDevRelease && cd ..",
+    "release:prod": "cd android && ./gradlew assembleProdRelease && cd ..",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "pod": "cd ios &&  bundle exec pod install && cd ..",
+    "ios:dev": "npx react-native run-ios --scheme MultipleEnvDev --configuration DebugDev",
+    "ios:prod": "npx react-native run-ios --scheme MultipleEnvProd --configuration DebugProd"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.67.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
